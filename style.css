@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width:50px;
+}
+/* estilos del header */
+.header{
+    width:100%;
+    height:67vh;
+    background-color:blue;
+    background-image: url('../imagenes/descarga2.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    
+}
+
+.navbar{
+    width: 80%;
+    margin: auto ;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.navbar a:hover{
+    background-color: rgb(9 203 255 / 100%);
+}
+
+.navbar a:active, a:visited{
+    background-color:red;
+}
+
+
+/* cuerpo de la pagina */
+.grid_container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 28% 28% 28%;
+    padding: 10px;
+}
+
+.grid_container > div{
+    background-color: rgb(162, 187, 179);
+    text-align: center;
+    padding:30px;
+    font-size:40px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 30%;
+}
+
