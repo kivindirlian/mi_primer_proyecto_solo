@@ -7,7 +7,7 @@ img{
     width:50px;
 }
 /* estilos del header */
-.header{
+header{
     width:100%;
     height:67vh;
     background-color:blue;
@@ -21,6 +21,7 @@ img{
 }
 
 .navbar{
+    
     width: 80%;
     margin: auto ;
     text-align: center;
@@ -32,7 +33,7 @@ img{
     text-decoration: none;
     padding: 10px;
     margin: 10px;
-    color: white;
+    color: black;
 }
 
 .navbar a:hover{
@@ -61,4 +62,74 @@ img{
     font-size: 20px;
     border-radius: 30%;
 }
+
+/* contenido pagina */
+
+.container_grid2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 26% 26% 26%;
+    padding: 10px;
+    width: 97%;
+    margin: auto;
+    
+}
+.container_grid2 > .titulo_productos{
+    width: 100%;
+}
+
+.titulo_productos > h1{
+    text-align: center;
+}
+
+.container_grid2 > .grid{
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size:15px;
+    background-color:rgba(234, 243, 243, 0.39);
+    
+
+}
+
+.grid:hover{
+    animation-duration: 5s;
+    animation: forwards;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color:rgba(234, 243, 243, 0.904);
+    border-radius: 100%;
+}
+
+
+
+.grid > img{
+    width:100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.button_box{
+    width:100%;
+    text-align:center;
+}
+
+.boton_ver_mas{
+    width:21%;
+    height:50px;
+    background-color:greenyellow;
+    border: 0;
+    border-radius:20px;
+    
+}
+
+.boton_ver_mas > a{
+    width:100%;
+    font-size: 30px;
+    padding:17px 26px;
+    text-decoration: none;
+    
+}
+
+
+
 
