@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.centrar_contenido{
+  width:70%;
+  margin: auto ;
+}
+
+.separacion{
+  margin:10px;
+  padding:5;
+}
+
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Sacramento', cursive; */
+
+.tituli_productos{
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-weight: 100;
+    font-variant: petite-caps;
+    font-family: auto;
+}
+
+img {
+  width: 50px;
+}
+/* estilos del header */
+header {
+  width: 100%;
+  height: 67vh;
+  background-color: blue;
+  background-image: url("../imagenes/descarga2.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.navbar {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+.navbar a:hover {
+  background-color: rgb(33 138 33 / 37%);
+  text-decoration: underline;
+}
+
+.navbar a.active {
+  background-color: rgb(33 138 33 / 51%);
+  border-radius: 10px;
+}
+
+/* cuerpo de la pagina */
+.grid_container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 28% 28% 28%;
+  padding: 10px;
+}
+
+.grid_container > div {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 30%;
+}
+
+/* contenido pagina */
+
+.container_grid2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 26% 26% 26%;
+  padding: 10px 10px;
+  width: 97%;
+  margin: 0 auto;
+}
+.container_grid2 > .titulo_productos {
+  width: 100%;
+}
+
+.titulo_productos > h1 {
+  text-align: center;
+}
+
+.container_grid2 > .grid {
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.grid:hover {
+  animation-duration: 5s;
+  animation: forwards;
+  /* font-size: 20px; */
+  border: 1px  ;
+  background-color: rgba(234, 243, 243, 0.904);
+}
+
+.grid > img {
+  width: 100%;
+ 
+}
+
+
+.button_box {
+  width: 100%;
+  text-align: center;
+}
+
+.boton_ver_mas {
+  width: 21%;
+  height: 50px;
+  background-color: greenyellow;
+  border: 0;
+  border-radius: 20px;
+}
+
+.boton_ver_mas > a {
+  width: 100%;
+  font-size: 30px;
+  padding: 17px 26px;
+  text-decoration: none;
+}
+
+/* estilos del footer */
+
+footer {
+  
+  background-color:rgba(33 138 33 / 51%);
+  margin: 10px 0 0 0;
+  justify-content: space-between;
+  
+}
+
+.container_footer, .container_footer2{
+  width: 90%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3%;
+  justify-content:space-between;
+  text-align: center;
+}
+
+.container_footer > .grid3{
+  margin:0 10px;
+  padding:0 10px;
+}
+
+.grid3 > li{
+  list-style: none;
+  margin: 8px 0 0 0;
+}
+
+.grid3 > li > a{
+  text-decoration:none;
+  color: black;
+}
+
+.grid3 > li > a:hover{
+  text-decoration:underline;
+}
+
+.container_footer2{
+  background-color:rgb(55 60 55);
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.menu-footer{
+  display:block !important;
+}
+
+
+
+.redes_sociales > a > img{
+  width: 15px;
+  padding:10px;
+}
+
+/* estilos pagina tienda */
+
+
+
+.container_grid3 {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  margin: 0 auto;
+  
+}
+
+.container_grid3 > .grid2{
+    text-align: center;
+    width: 90%;
+    padding: 25px 0;
+    margin: 30px;
+}
+
+.grid2 > img {
+    width: 90%;
+}
+
+.grid2:hover{
+   background-color: rgba(221, 240, 248, 0.726);
+}
+
+
+/* diseños pagina precios */
+
+
+
+
